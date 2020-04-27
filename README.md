@@ -71,6 +71,11 @@ We then use the render template module to link the html file to the results from
 
 
 ## IMAGES OF THE FINAL WEBPAGE:
-![](images/Website_Screenshot_01.png)
 
+### Top Portion of the Webpage:
 
+![](images/Website_Screenshot_01.PNG)
+
+### Bottom Portion of the Webpage:
+
+![](images/Website_Screenshot_02.PNG)
