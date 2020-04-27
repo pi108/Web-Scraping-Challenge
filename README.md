@@ -16,7 +16,7 @@ b.	HTML file generated from the jupyter notebook file.
 a.	2 Screenshots showing the top half and the bottom half of the final webpage.
 
 
-
+<hr>
 ## WEB SCRAPING:
 We created a jupyter notebook file and used Beautiful Soup, Splinter and Pandas to scrape data from the following websites:
 
@@ -41,7 +41,7 @@ https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=
 We scraped this website and extracted the titles and the full resolution image for each of Mars’s hemispheres. 
 
 
-
+<hr>
 ## CREATION OF A SCRAPING FUNCTION AND A WEB-PAGE TO DISPLAY THE RESULTS:
 
 ### Creation of a file with a “scrape” function:
