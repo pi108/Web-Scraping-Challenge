@@ -53,30 +53,33 @@ In this file, we created a function called "scrape" that incorporates all the lo
 
 ### Creation of an html file:
 We then created an html file called index.html to display the results returned from running the scrape function mentioned above. This html file divides the webpage into 5 distinct sections:
-1. Top Section:
+<br>
+•	Top Section: 
+<br>
 This contains the website heading and also a button linked to the scrape function. A user can click this button and that will scrape the data from the 5 websites.
 <br>
-2.	Middle Section - 1:
+•	Middle Section - 1:
 <br>
 This contains the title and a description paragraph of the latest Mars news article from the NASA website.
 <br>
-3.	Middle Section – 2 - Left:
+•	Middle Section – 2 - Left:
 <br>
-This contains the current featured image from the JPL Mars Space Image Website. 
+This contains the current featured image from the JPL Mars Space Image Website.
 <br>
-4.	Middle Section – 2 - Right:
+•	Middle Section – 2 - Right:
 <br>
 This contains the latest Mars weather tweet from the Mars weather twitter account.
 <br>
 This also contains facts about Mars such as the planet’s diameter, mass, etc.
 <br>
-5.	Bottom Section – 1:
+•	Bottom Section – 1:
 <br>
 This contains a heading for the section on the Mars Hemispheres.
 <br>
-6.	Bottom Section – 2:
+•	Bottom Section – 2:
 <br>
 This contains the full resolution images of the 4 Mars hemispheres.
+
 
 ### Creation of an “app” file:
 We then created a new file called app.py.
