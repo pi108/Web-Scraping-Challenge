@@ -1,0 +1,242 @@
+<!-- =============================================================== -->
+<!-- BEGINNING OF THE SCRIPT -->
+<!-- =============================================================== -->
+
+
+<!DOCTYPE html>
+
+
+<!-- =============================================================== -->
+<!-- SET THE LANGUAGE TO ENGLISH (US) -->
+<!-- =============================================================== -->
+
+
+<html lang="en">
+
+
+<!-- =============================================================== -->
+<!-- BEGINNING OF THE HEAD SECTION -->
+<!-- SPECIFY META TAGS, TITLE, BOOTSTRAP LINKS, JAVA SCRIPTS AND STYLE-->
+<!-- =============================================================== -->
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Mission to Mars</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <style>
+            h1 {
+                color: navy;
+                font-size: 50px;
+                font-weight: bold;
+            }
+    
+            h2 {
+                font-size: 25px;
+                text-align: left;
+            }
+    
+            h3 {
+                color: black;
+                font-size: 20px;
+                text-align: left;
+            }
+    
+            h4 {
+                color: black;
+                font-size: 15px;
+                font-weight: bold;
+                text-align: center;
+            }
+    
+            body {
+                width: 100%;
+                min-height: 100%;
+                background-color: white;
+            }
+    
+            img {
+                width: 100%;
+            }
+    
+            .boxborder {
+                padding: 10px;
+                border: lightgray 4px solid;
+            }
+    
+            .boxmargin {
+                padding: 2px;
+                border: lightgray 4px solid;
+                margin: 10px 0px 10px 0px;
+            }
+    </style>    
+
+
+</head>
+
+
+<!-- =============================================================== -->
+<!-- END OF THE HEAD SECTION -->
+<!-- =============================================================== -->
+
+
+
+<body>
+
+<!-- ================================================= -->
+<!-- BEGINNING OF THE CONTAINER -->
+<!-- ================================================= -->
+
+
+    <div class="container">
+
+
+<!-- ================================================= -->
+<!-- BEGINNING OF SECTION 1 -->
+<!-- WEB PAGE MAIN HEADING & BUTTON TO SCRAPE THE DATA -->
+<!-- ================================================= -->
+
+
+        <div class="jumbotron text-center">
+            <h1>Mission to Mars</h1>
+            <br>
+            <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+        </div>
+
+<!-- ================================================= -->
+<!-- END OF SECTION 1 -->
+<!-- ================================================= -->
+
+
+<!-- ================================================= -->
+<!-- BEGINNING OF SECTION 2 -->
+<!-- LATEST MARS NEWS -- DISPLAY TITLE & PARAGRAPH -->
+<!-- ================================================= -->
+
+
+        <div class="row">
+            <div class="col col-12">
+                <h2>Latest Mars News</h2>
+                <hr>
+                <h3>{{marspage.news_title}}</h3>
+                {{marspage.news_p}}
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+
+<!-- ================================================= -->
+<!-- END OF SECTION 2 -->
+<!-- ================================================= -->
+
+
+
+<!-- ================================================= -->
+<!-- BEGINNING OF SECTION 3 -->
+<!-- DISPLAY FEATURED MARS IMAGE, CURRENT MARS WEATHER -->
+<!-- DISPLAY TABLE WITH FACTS ABOUT MARS -->
+<!-- ================================================= -->
+
+
+        <div class="row">
+            <div class="col col-8">
+                <h2>Featured Mars Image</h2>
+                <hr>
+                <br>
+                <img src={{marspage.featured_image_url}} alt="Featured image">
+            </div>
+            <div class="col col-4">
+                <br>
+                <br>
+                <div class="boxborder">
+                    <h3>Current Weather on Mars</h3>
+                    {{marspage.mars_weather}}
+                </div>
+                <br>
+                <br>
+                <h3>Mars Facts</h3>
+                {{marspage.marsfacts_html | safe}}
+            </div>
+        </div>
+        <br><br>
+
+
+<!-- ================================================= -->
+<!-- END OF SECTION 3 -->
+<!-- ================================================= -->
+
+
+<!-- ================================================= -->
+<!-- BEGINNING OF SECTION 4 -->
+<!-- DISPALY THE TITLE CALLED "MARS HEMISPHERES" -->
+<!-- ================================================= -->
+
+
+        <div class="row">
+            <div class="col col-12">
+                <br>
+                <hr>
+                <h4>Mars Hemispheres</h4>
+            </div>
+        </div>
+        <hr>
+
+<!-- ================================================= -->
+<!-- END OF SECTION 4 -->
+<!-- ================================================= -->
+
+
+
+<!-- ================================================= -->
+<!-- BEGINNING OF SECTION 5 -->
+<!-- DISPLAY THE IMAGES OF THE MARS HEMISPHERES -->
+<!-- ================================================= -->
+
+
+        <div class="row">
+            {% for X in  marspage.hemisphere_image_urls %}
+            <div class="col col-6">
+                <div class="boxmargin">
+                    <img src={{X.img_url}} alt={{X.img_url}}>
+                    <h3>{{X.title}}</h3>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div> 
+
+
+<!-- ================================================= -->
+<!-- END OF SECTION 5 -->
+<!-- ================================================= -->    
+
+<!-- ================================================= -->
+<!-- END OF THE CONTAINER -->
+<!-- ================================================= -->
+    
+</body>
+
+</html>
+
+<!-- ================================================= -->
+<!-- END OF THE SCRIPT -->
+<!-- ================================================= -->
