@@ -74,4 +74,3 @@ We then use the render template module to link the html file to the results from
 ![](images/Website_Screenshot_01.png)
 
 
-
