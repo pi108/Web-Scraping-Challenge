@@ -69,4 +69,5 @@ We then created a new file called app.py.
 In this file we import (as a module) the scrape_mars.py file which contains the “scrape” function.
 We then use the render template module to link the html file to the results from running the scrape function, so that we can display the results on a webpage using the template provided by the html file.
 
-
+![](Website_Screenshot_01.png)
+![](Website_Screenshot_02.png)
