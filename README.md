@@ -104,6 +104,10 @@ We then use the render template module to link the html file to the results from
 * Named after the Roman god of war, Mars is also often described as the “Red Planet” due to its reddish appearance. 
 * Mars is a terrestrial planet with a thin atmosphere composed primarily of carbon dioxide.
 * Martian surface gravity is only 37% of the Earth’s (meaning you could leap nearly three times higher on Mars).
+* Only 18 missions to Mars have been successful out of more than 40 missions.
+* Mars has the largest dust storms in the solar system. They can last for months and cover the entire planet.
+* On Mars the Sun appears about half the size as it does on Earth.
+* There are signs of liquid water on Mars. For years Mars has been known to have water in the form of ice
 
 
 
