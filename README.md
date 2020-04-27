@@ -100,6 +100,7 @@ We then use the render template module to link the html file to the results from
 <br>
 
 ## SOME ADDITIONAL ANALYSIS / INFORMATION ABOUT MARS:
+https://space-facts.com/mars/
 * Mars is the fourth planet from the Sun and is the second smallest planet in the solar system. 
 * Named after the Roman god of war, Mars is also often described as the “Red Planet” due to its reddish appearance. 
 * Mars is a terrestrial planet with a thin atmosphere composed primarily of carbon dioxide.
@@ -108,7 +109,8 @@ We then use the render template module to link the html file to the results from
 * Mars has the largest dust storms in the solar system. They can last for months and cover the entire planet.
 * On Mars the Sun appears about half the size as it does on Earth.
 * There are signs of liquid water on Mars. For years Mars has been known to have water in the form of ice.
-* Pieces of Mars have fallen to Earth. Scientists have found tiny traces of Martian atmosphere within meteorites violently ejected from Mars, then orbiting the solar system amongst galactic debris for millions of years, before crash landing on Earth. 
+* Pieces of Mars have fallen to Earth. Scientists have found tiny traces of Martian atmosphere within meteorites violently ejected from Mars, then orbiting the solar system amongst galactic debris for millions of years, before crash landing on Earth. This allowed scientists to begin studying Mars prior to launching space missions.
+* One day Mars will have a ring. In the next 20-40 million years Mars’ largest moon Phobos will be torn apart by gravitational forces leading to the creation of a ring that could last up to 100 million years.
 
 
 
