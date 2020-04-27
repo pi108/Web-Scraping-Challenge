@@ -71,7 +71,7 @@ We then use the render template module to link the html file to the results from
 
 
 ## IMAGES OF THE FINAL WEBPAGE:
-![](Missions_to_Mars/Website_Screenshot_01.png)
+![](images/Website_Screenshot_01.png)
 
 
 
