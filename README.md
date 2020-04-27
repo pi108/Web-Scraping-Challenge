@@ -107,7 +107,8 @@ We then use the render template module to link the html file to the results from
 * Only 18 missions to Mars have been successful out of more than 40 missions.
 * Mars has the largest dust storms in the solar system. They can last for months and cover the entire planet.
 * On Mars the Sun appears about half the size as it does on Earth.
-* There are signs of liquid water on Mars. For years Mars has been known to have water in the form of ice
+* There are signs of liquid water on Mars. For years Mars has been known to have water in the form of ice.
+* Pieces of Mars have fallen to Earth. Scientists have found tiny traces of Martian atmosphere within meteorites violently ejected from Mars, then orbiting the solar system amongst galactic debris for millions of years, before crash landing on Earth. 
 
 
 
