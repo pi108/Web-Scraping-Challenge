@@ -53,7 +53,7 @@ In this file, we created a function called "scrape" that incorporates all the lo
 
 ### Creation of an html file:
 We then created an html file called index.html to display the results returned from running the scrape function mentioned above. This html file divides the webpage into 5 distinct sections:
-
+1. Top Section:
 This contains the website heading and also a button linked to the scrape function. A user can click this button and that will scrape the data from the 5 websites.
 <br>
 2.	Middle Section - 1:
