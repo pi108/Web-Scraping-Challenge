@@ -97,6 +97,8 @@ We then use the render template module to link the html file to the results from
 ### Bottom Portion of the Webpage:
 ![](images/Website_Screenshot_02.PNG)
 
+<br>
+
 ## SOME ADDITIONAL ANALYSIS / INFORMATION ABOUT MARS:
 * Mars is the fourth planet from the Sun and is the second smallest planet in the solar system. 
 * Named after the Roman god of war, Mars is also often described as the “Red Planet” due to its reddish appearance. 
